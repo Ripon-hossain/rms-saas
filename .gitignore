@@ -1,0 +1,31 @@
+# Ignore system and application cache
+application/cache/
+application/logs/
+writable/
+
+# Ignore environment config
+.env
+.env.*
+config/development/
+config/testing/
+config/staging/
+config/production/
+
+# Ignore dependencies (if using Composer)
+vendor/
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.swp
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore uploaded files (if applicable)
+public/uploads/
+uploads/
+
+# Ignore Captcha images
+assets/img/captcha/
